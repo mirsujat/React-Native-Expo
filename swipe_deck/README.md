@@ -5,4 +5,4 @@ Build With Expo, Animation and LayoutAnimation
 
 ## Swipe Left/Right to view the next Card
 
-![Alt text](/swipe_deck.jpg?raw=true)
+![Alt text](./swipe_deck.jpg?raw=true)

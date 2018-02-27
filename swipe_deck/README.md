@@ -1,2 +1,4 @@
 # ReactNative Mobile App
-Build With Expo
+Build With Expo, Animation and LayoutAnimation
+
+#### This gives you cool experience just like tinder

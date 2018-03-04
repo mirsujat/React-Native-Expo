@@ -1,10 +1,14 @@
 import Expo from 'expo';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import { TabNavigator } from 'react-navigation';
+import { TabNavigator, TabBarBottom, StackNavigator } from 'react-navigation';
 
 import AuthScreen from './screens/AuthScreen';
 import WelcomeScreen from './screens/WelcomeScreen';
+import MapScreen from './screens/MapScreen';
+import DeckScreen from './screens/DeckScreen';
+import SettingsScreen from './screens/SettingsScreen';
+import ReviewScreen from './screens/ReviewScreen';
 
 class App extends React.Component {
   render() {
@@ -21,7 +25,36 @@ const styles = StyleSheet.create({
   }
 });
 
-export default TabNavigator({
-  welcome: { screen: WelcomeScreen },
-  auth: { screen: AuthScreen }
-});
+export default TabNavigator(
+  {
+    welcome: { screen: WelcomeScreen },
+    auth: { screen: AuthScreen },
+    main: {
+      screen: TabNavigator(
+        {
+          map: { screen: MapScreen },
+          deck: { screen: DeckScreen },
+          review: {
+            screen: StackNavigator({
+              review: { screen: ReviewScreen },
+              settings: { screen: SettingsScreen }
+            })
+          }
+        },
+        {
+          tabBarComponent: TabBarBottom,
+          tabBarPosition: 'bottom',
+          swipeEnabled: false,
+          animationEnabled: false
+        }
+      )
+    }
+  },
+  {
+    tabBarComponent: TabBarBottom,
+    tabBarPosition: 'bottom',
+    swipeEnabled: false,
+    animationEnabled: false
+  },
+  { lazy: true }
+);

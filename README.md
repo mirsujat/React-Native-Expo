@@ -1,2 +1,2 @@
 # ReactNative Mobile App
-Build With Expo, React Animation and LayoutAnimation
+Build With Expo, React, ReactNative Animation and LayoutAnimation

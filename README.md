@@ -14,7 +14,7 @@ Build with React Native, Expo XDE, Google Cloud Function, Firebase and twilio fo
 
 please visite:
 
-[Google Cloud Functions](https://cloud.google.com/functions/)
+- [Google Cloud Functions](https://cloud.google.com/functions/)
 
 [Firebase](https://firebase.google.com/)
 

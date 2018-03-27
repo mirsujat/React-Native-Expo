@@ -24,6 +24,7 @@ please visite:
 ## opt-sunday-client
 Only client side for One Time Password Manager
 
+Build with React Native, Expo XDE, Google Cloud Function, Firebase and twilio
 
 
 These are  test projects for learning Google Cloud Functions, Firebase and Twilio.

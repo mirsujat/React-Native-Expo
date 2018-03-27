@@ -22,7 +22,7 @@ please visite:
 
 
 ## opt-sunday-client
-
+Only client side for One Time Password Manager
 
 
 

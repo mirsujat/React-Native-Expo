@@ -26,6 +26,7 @@ Only client side for One Time Password Manager
 
 Build with React Native, Expo XDE, Google Cloud Function, Firebase and twilio
 
+for some security and payment issue ROOT_URL, twilio API key are not exposed here so this APP do not run in your local 
 
 These are  test projects for learning Google Cloud Functions, Firebase and Twilio.
 

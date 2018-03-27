@@ -6,7 +6,8 @@ for some security and payment issue ROOT_URL, twilio API key are not exposed her
 
 To Learn More; please visite
 - [Google Cloud Functions](https://cloud.google.com/functions/)
-[![Firebase]](https://firebase.google.com/)  
+
+- [Firebase](https://firebase.google.com/)  
 [![Twilio]](https://www.twilio.com/)
 
 This is a test project for learning Google Cloud Functions, Firebase and Twilio.

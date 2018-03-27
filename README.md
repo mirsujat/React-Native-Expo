@@ -1,4 +1,4 @@
-# ReactNative Mobile App
+# ReactNative Mobile App Build with Expo
 Build With Expo, React, ReactNative, ReactNtive Animation and LayoutAnimation
 
 Project Descriptions:
